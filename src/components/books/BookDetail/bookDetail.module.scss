@@ -1,0 +1,40 @@
+@import '../../../scss/variables.scss';
+
+.detailDialog {
+  background-color: $background !important;
+  color: $fontColor !important;
+  .title {
+    text-align: center;
+  }
+
+  .card {
+    overflow-y: scroll !important;
+  }
+
+  .cardContentBox {
+    padding: 30px;
+    height: 100%;
+    overflow-y: scroll !important;
+  }
+
+  ul {
+    list-style: none;
+    .divider {
+      color: $fontColor;
+      &::after,
+      &::before {
+        background-color: $fontColor;
+        border-radius: 10px;
+      }
+    }
+    li {
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 20px;
+      span {
+        color: #ffffff;
+        text-align: center;
+      }
+    }
+  }
+}

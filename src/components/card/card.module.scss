@@ -1,0 +1,13 @@
+@import '../../scss/variables.scss';
+
+.card {
+  background-color: $background !important;
+  outline: 0;
+  padding: 10px;
+  height: 100%;
+  max-height: 500px;
+  span {
+    color: $fontColor;
+  }
+  box-shadow: 0 0 0 3px darken($color: $background, $amount: 2);
+}

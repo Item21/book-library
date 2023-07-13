@@ -1,0 +1,18 @@
+#root,
+html,
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  max-height: 100vh;
+  height: 100vh;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  background: #182d4f;
+  font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
